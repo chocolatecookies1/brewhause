@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brewhaus — Artisan Coffee Roasters</title>
+<meta name="description" content="Brewhaus: Specialty coffee ethically sourced, roasted in-house, served with love. Visit our café in New Delhi.">
+<link rel="icon" type="image/png" href="logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+<!-- GRAIN OVERLAY -->
+<div class="grain-overlay"></div>
+
+<!-- LOADER -->
+<div class="page-loader" id="pageLoader">
+  <div class="loader-inner">
+    <img src="logo.png" alt="Brewhaus" class="loader-logo">
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <a href="#" class="nav-logo">
+    <img src="logo.png" alt="Brewhaus" class="nav-logo-img">
+    <span class="nav-logo-text">Brew<span>haus</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">Our Story</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#subscription">Brewhaus Daily</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#contact" class="nav-cta">Visit Us</a></li>
+  </ul>
+  <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#about">Our Story</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#subscription">Brewhaus Daily</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#contact" class="nav-cta">Visit Us</a></li>
+  </ul>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
+  <div class="hero-text reveal">
+    <div class="hero-eyebrow">Est. 2018 · Single Origin</div>
+    <h1>Coffee <em>crafted</em><br>with soul.</h1>
+    <p class="hero-sub">From hand-picked highland beans to your morning ritual — every cup at Brewhaus is a small, intentional act of joy.</p>
+    <div class="hero-btns">
+      <a href="#menu" class="btn-primary" id="heroMenuBtn"><span>Explore Menu</span></a>
+      <a href="#about" class="btn-outline" id="heroStoryBtn"><span>Our Story</span></a>
+    </div>
+  </div>
+  <div class="hero-visual reveal">
+    <div class="coffee-card-big">
+      <div class="coffee-card-big-inner">
+        <div class="cup-illustration">
+          <div class="steam">
+            <span class="steam-line"></span>
+            <span class="steam-line"></span>
+            <span class="steam-line"></span>
+          </div>
+          <div class="cup-body">
+            <div class="cup-liquid"></div>
+            <div class="cup-handle"></div>
+          </div>
+          <div class="cup-saucer"></div>
+        </div>
+        <div class="hero-card-text">
+          <h3>Signature Espresso</h3>
+          <p>House blend · Dark roast</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <span>4.9</span>
+      <span>★ Rated</span>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-pill"><strong>12+</strong><span>Origins</span></div>
+      <div class="stat-pill"><strong>500+</strong><span>Daily cups</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-bar">
+  <div class="marquee-inner">
+    <span>Specialty Coffee <span class="marquee-dot">·</span></span>
+    <span>Single Origin Beans <span class="marquee-dot">·</span></span>
+    <span>Ethically Sourced <span class="marquee-dot">·</span></span>
+    <span>Artisan Roasters <span class="marquee-dot">·</span></span>
+    <span>Café & Takeaway <span class="marquee-dot">·</span></span>
+    <span>Cold Brew Daily <span class="marquee-dot">·</span></span>
+    <span>Freshly Baked Goods <span class="marquee-dot">·</span></span>
+    <span>Specialty Coffee <span class="marquee-dot">·</span></span>
+    <span>Single Origin Beans <span class="marquee-dot">·</span></span>
+    <span>Ethically Sourced <span class="marquee-dot">·</span></span>
+    <span>Artisan Roasters <span class="marquee-dot">·</span></span>
+    <span>Café & Takeaway <span class="marquee-dot">·</span></span>
+    <span>Cold Brew Daily <span class="marquee-dot">·</span></span>
+    <span>Freshly Baked Goods <span class="marquee-dot">·</span></span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-text reveal">
+    <div class="section-eyebrow">Our Story</div>
+    <h2>Rooted in <em>passion</em>,<br>brewed with care.</h2>
+    <p>Brewhaus was born from a single obsession: making coffee that actually means something. We work directly with small-scale farmers across Ethiopia, Colombia, and Guatemala — paying fair prices and building lasting relationships.</p>
+    <p>Every batch is roasted in-house, dialled in by our head roaster Priya, who left a corporate career to pursue the one thing that made mornings worth waking up for.</p>
+    <a href="#contact" class="btn-primary" id="aboutTeamBtn" style="display:inline-block;margin-top:1rem;"><span>Meet the Team</span></a>
+  </div>
+  <div class="about-visual reveal">
+    <div class="about-img-card dark">
+      <div class="card-inner-label">
+        <span class="beans-icon">☕</span>
+        "Roasted fresh<br>every morning"
+      </div>
+    </div>
+    <div class="about-img-card light" style="transform:translateY(1.5rem);">
+      <div class="card-inner-label dark-text">
+        <span class="beans-icon" style="color:var(--espresso);">🌱</span>
+        Direct trade<br>with farmers
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section id="menu">
+  <div class="menu-header">
+    <div>
+      <div class="section-eyebrow">What We Serve</div>
+      <h2>The <em>menu</em></h2>
+    </div>
+    <div class="menu-filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="hot">Hot</button>
+      <button class="filter-btn" data-filter="cold">Cold</button>
+      <button class="filter-btn" data-filter="special">Special</button>
+    </div>
+  </div>
+  <div class="menu-grid">
+    <div class="menu-card reveal" data-category="hot">
+      <div class="menu-icon">☕</div>
+      <h3>Signature Espresso</h3>
+      <p>Rich, velvety, and intense. Our house blend pulls a 28-second shot with notes of dark chocolate and toasted hazelnut.</p>
+      <div class="menu-card-footer">
+        <span class="menu-price">₹180</span>
+        <span class="menu-tag popular">Popular</span>
+      </div>
+    </div>
+    <div class="menu-card reveal" data-category="hot">
+      <div class="menu-icon">🥛</div>
+      <h3>Silky Flat White</h3>
+      <p>Double ristretto with microfoam milk. A tighter ratio for those who want coffee flavour front and centre.</p>
+      <div class="menu-card-footer">
+        <span class="menu-price">₹220</span>
+        <span class="menu-tag">Bestseller</span>
+      </div>
+    </div>
+    <div class="menu-card reveal" data-category="cold">
+      <div class="menu-icon">🧊</div>
+      <h3>Cold Brew</h3>
+      <p>Steeped for 18 hours in filtered water. Smooth, low-acid, and impossibly refreshing. Available in classic & vanilla.</p>
+      <div class="menu-card-footer">
+        <span class="menu-price">₹260</span>
+        <span class="menu-tag">Cold</span>
+      </div>
+    </div>
+    <div class="menu-card reveal" data-category="special">
+      <div class="menu-icon">🍂</div>
+      <h3>Pour Over</h3>
+      <p>Slow-dripped to unlock the full complexity of our single-origin Ethiopian bean — floral, fruity, and bright.</p>
+      <div class="menu-card-footer">
+        <span class="menu-price">₹290</span>
+        <span class="menu-tag">Single Origin</span>
+      </div>
+    </div>
+    <div class="menu-card reveal" data-category="hot">
+      <div class="menu-icon">🫘</div>
+      <h3>Caramel Latte</h3>
+      <p>Our most indulgent offering. House espresso, steamed oat milk, and real caramel sauce — not syrup.</p>
+      <div class="menu-card-footer">
+        <span class="menu-price">₹250</span>
+        <span class="menu-tag popular">Popular</span>
+      </div>
+    </div>
+    <div class="menu-card reveal" data-category="special">
+      <div class="menu-icon">🍵</div>
+      <h3>Matcha Latte</h3>
+      <p>Ceremonial-grade matcha whisked with steamed almond milk. The perfect non-coffee option for calm energy.</p>
+      <div class="menu-card-footer">
+        <span class="menu-price">₹270</span>
+        <span class="menu-tag">New</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="section-eyebrow">How We Do It</div>
+  <h2>From <em>farm to cup</em></h2>
+  <div class="process-grid">
+    <div class="process-step reveal">
+      <div class="step-num">01</div>
+      <h4>Source</h4>
+      <p>We partner with farms at altitude, selecting only the top 5% of each harvest. Every origin is visited in person.</p>
+    </div>
+    <div class="process-step reveal">
+      <div class="step-num">02</div>
+      <h4>Roast</h4>
+      <p>Small-batch roasting on our vintage drum roaster, dialled in fresh every morning for peak flavour development.</p>
+    </div>
+    <div class="process-step reveal">
+      <div class="step-num">03</div>
+      <h4>Dial In</h4>
+      <p>Every grind and extraction is calibrated to the gram. Our baristas are trained to obsessive levels of precision.</p>
+    </div>
+    <div class="process-step reveal">
+      <div class="step-num">04</div>
+      <h4>Serve</h4>
+      <p>Poured with intention and served with warmth. We believe coffee is a conversation, not a transaction.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SUBSCRIPTION -->
+<section id="subscription">
+  <div class="section-eyebrow">For the Daily Drivers</div>
+  <h2>Join <em>Brewhaus Daily</em></h2>
+  <p>Never run out of your favourite brew. Subscribe to our daily driver plan and enjoy fresh coffee every day, exclusive member events, and priority service.</p>
+  
+  <div class="sub-plans-grid">
+    <!-- BASIC TIER -->
+    <div class="sub-plan reveal">
+      <div class="sub-price">₹1,499<span>/mo</span></div>
+      <h3 style="color: var(--latte); font-family: 'Playfair Display', serif; margin-bottom: 1.5rem; font-size: 1.5rem;">Basic</h3>
+      <ul>
+        <li>1 Coffee per day (Espresso, Americano)</li>
+        <li>5% off all food items</li>
+        <li>Standard priority ordering</li>
+      </ul>
+      <a href="#contact" class="btn-outline" style="margin-top: 1.5rem; width: 100%; border-color: var(--gold); color: var(--gold);"><span>Subscribe Basic</span></a>
+    </div>
+
+    <!-- POPULAR TIER -->
+    <div class="sub-plan reveal popular" style="transform: scale(1.05); z-index: 2; border-color: var(--caramel); background: rgba(59, 31, 12, 0.4);">
+      <div class="sub-badge">Most Popular</div>
+      <div class="sub-price">₹2,999<span>/mo</span></div>
+      <h3 style="color: var(--cream); font-family: 'Playfair Display', serif; margin-bottom: 1.5rem; font-size: 1.5rem;">Daily Driver</h3>
+      <ul>
+        <li>2 Coffees per day (Any menu drink)</li>
+        <li>10% off all food & merchandise</li>
+        <li>Skip-the-line priority ordering</li>
+        <li>Exclusive invites to monthly cupping sessions</li>
+      </ul>
+      <a href="#contact" class="btn-primary" style="margin-top: 1.5rem;"><span>Subscribe Popular</span></a>
+    </div>
+
+    <!-- YEARLY TIER -->
+    <div class="sub-plan reveal">
+      <div class="sub-badge" style="background: var(--espresso); border: 1px solid var(--gold); color: var(--gold);">Save 20%</div>
+      <div class="sub-price">₹28,999<span>/yr</span></div>
+      <h3 style="color: var(--latte); font-family: 'Playfair Display', serif; margin-bottom: 1.5rem; font-size: 1.5rem;">Yearly VIP</h3>
+      <ul>
+        <li>Unlimited coffees (Any menu drink)</li>
+        <li>15% off all food & merchandise</li>
+        <li>Free limited edition Brewhaus mug</li>
+        <li>Bring a friend for free (1x/month)</li>
+      </ul>
+      <a href="#contact" class="btn-outline" style="margin-top: 1.5rem; width: 100%; border-color: var(--gold); color: var(--gold);"><span>Subscribe Yearly</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="section-eyebrow">What People Say</div>
+  <h2>Real <em>reviews</em></h2>
+  <div class="testimonials-grid">
+    <div class="testimonial-card reveal">
+      <div class="stars">★★★★★</div>
+      <blockquote>"I've been to coffee shops across the city and Brewhaus is in a different league. The flat white is absolutely perfect — every single time."</blockquote>
+      <div class="reviewer">
+        <div class="reviewer-avatar">AK</div>
+        <div><div class="reviewer-name">Aryan Kapoor</div><div class="reviewer-role">Regular since 2022</div></div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal">
+      <div class="stars">★★★★★</div>
+      <blockquote>"The pour over here is transformative. I didn't know coffee could taste like jasmine and blueberry until I came here. Mind blown."</blockquote>
+      <div class="reviewer">
+        <div class="reviewer-avatar">SP</div>
+        <div><div class="reviewer-name">Siya Patel</div><div class="reviewer-role">Coffee enthusiast</div></div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal">
+      <div class="stars">★★★★★</div>
+      <blockquote>"Not just a café — it's the vibe, the music, the people. Brewhaus is the kind of place you end up staying at for three hours without realising."</blockquote>
+      <div class="reviewer">
+        <div class="reviewer-avatar">RV</div>
+        <div><div class="reviewer-name">Rohan Verma</div><div class="reviewer-role">Freelancer & remote worker</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-eyebrow" style="justify-content:center;color:var(--caramel);">Get in Touch</div>
+  <h2>Come say <em>hello.</em></h2>
+  <p>Whether you're popping in for a cup, planning a corporate order, or just want to talk coffee — we're here for it.</p>
+  <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+    <div class="form-row">
+      <input type="text" placeholder="Your name" required id="contactName">
+      <input type="email" placeholder="Email address" required id="contactEmail">
+    </div>
+    <input type="text" placeholder="Subject" id="contactSubject">
+    <textarea placeholder="Your message..." id="contactMessage"></textarea>
+    <button type="submit" id="contactSubmit">Send Message →</button>
+  </form>
+</section>
+
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">
+    <a href="#" class="nav-logo" style="color:var(--latte);">
+      <img src="logo.png" alt="Brewhaus" class="nav-logo-img" style="filter:brightness(1.5);">
+      <span class="nav-logo-text">Brew<span style="color:var(--caramel);">haus</span></span>
+    </a>
+    <p>Specialty coffee, ethically sourced. Roasted in-house. Served with love. Open daily, 7am–10pm.</p>
+    <div class="social-icons">
+      <a href="#" aria-label="Instagram" class="social-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a href="#" aria-label="Twitter" class="social-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+      </a>
+      <a href="#" aria-label="Facebook" class="social-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+      </a>
+    </div>
+  </div>
+  <div>
+    <h5>Explore</h5>
+    <ul>
+      <li><a href="#about">Our Story</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#subscription">Brewhaus Daily</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div>
+    <h5>Visit</h5>
+    <ul>
+      <li><a href="#">12 Connaught Place</a></li>
+      <li><a href="#">New Delhi, 110001</a></li>
+      <li><a href="#">hello@brewhaus.in</a></li>
+      <li><a href="#">+91 98765 43210</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="footer-bottom">
+  © 2025 Brewhaus Coffee Co. · All rights reserved · Crafted with ♥ and caffeine
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
